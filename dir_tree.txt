@@ -1,0 +1,27 @@
+uot_chat/
+├── .pytest_cache/
+├── .venv/
+├── chat_modules/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── llm.py
+│   └── prompts.py
+├── tests/
+│   ├── __pycache__/
+│   ├── .pytest_cache/
+│   └── test_llm_utils.py
+├── uot_modules/
+│   ├── tasks/
+│   │   ├── prompts/
+│   │   │   ├── dementia_support.py
+│   │   │   ├── sub.py
+│   │   │   └── __init__.py
+│   │   ├── chat_utils.py
+│   │   ├── llm_utils.py
+│   │   └── uot.py
+│   └── __init__.py
+├── .env
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── streamlit_chat.py
